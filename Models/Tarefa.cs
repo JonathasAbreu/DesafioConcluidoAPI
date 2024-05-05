@@ -12,5 +12,10 @@ namespace TrilhaApiDesafio.Models
         public string Descricao { get; set; }
         public DateTime Data { get; set; }
         public EnumStatusTarefa Status { get; set; }
+        public object Prioridade { get; internal set; }
+        public object Prioridade { get; internal set; }
+        public object Prioridade { get; internal set; }
+        public object Prioridade { get; internal set; }
+        public object Prioridade { get; internal set; }
     }
 }
